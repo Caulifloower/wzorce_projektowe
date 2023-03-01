@@ -1,11 +1,11 @@
 package wzorce.builder;
 
-public class BudowniczyBezLombooka {
+public class BudowniczyBezLomboka {
 
     private final String value1;
     private final String value2;
 
-    private BudowniczyBezLombooka(String value1, String value2) {
+    private BudowniczyBezLomboka(String value1, String value2) {
         this.value1 = value1;
         this.value2 = value2;
     }
@@ -29,8 +29,8 @@ public class BudowniczyBezLombooka {
             return this;
         }
 
-        BudowniczyBezLombooka build() {
-            return new BudowniczyBezLombooka(value1, value2);
+        BudowniczyBezLomboka build() {
+            return new BudowniczyBezLomboka(value1, value2);
         }
     }
 }
