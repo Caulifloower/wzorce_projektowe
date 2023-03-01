@@ -9,5 +9,4 @@ public interface IDrukarka {
      */
 
     IDokument stwórzDokument();
-    void wydrukuj(IDokument dokument);
 }

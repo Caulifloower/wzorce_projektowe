@@ -14,9 +14,4 @@ public class IDrukSkarbowy implements IDrukarka {
         dokumentSkarbowy.dodajStopkę();
         return dokumentSkarbowy;
     }
-
-    @Override
-    public void wydrukuj(IDokument dokument) {
-        dokument.wydrukuj();
-    }
 }

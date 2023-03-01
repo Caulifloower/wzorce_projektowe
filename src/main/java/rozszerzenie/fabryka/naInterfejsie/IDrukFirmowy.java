@@ -14,9 +14,4 @@ public class IDrukFirmowy implements IDrukarka {
         dokumentFirmowy.dodajStopkę();
         return dokumentFirmowy;
     }
-
-    @Override
-    public void wydrukuj(IDokument dokument) {
-        dokument.wydrukuj();
-    }
 }
