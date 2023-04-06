@@ -10,7 +10,7 @@ public class ObiektJednejInstancji {
         }
     }
 
-    public ObiektJednejInstancji getInstance() {
+    public static ObiektJednejInstancji getInstance() {
         if (instance == null) {
             instance = new ObiektJednejInstancji();
         }
